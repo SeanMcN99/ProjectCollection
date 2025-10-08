@@ -50,6 +50,33 @@ a {
     font-size: 20px;
 }
 
+@media (max-width: 800px) {
+    #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 8vh;
+    font-size: 16px;
+    font-family: inter;
+    padding: 30px;
+    font-weight: 900;
+    background-color: var(--primary);
+    }
+
+    #navbtn {
+    border-radius: 8px;
+    background: var(--accent);
+    padding: 5px 12px;
+    font-size: 16px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+}
+
 #hero {
     margin-top: 150px;
 }
@@ -132,6 +159,35 @@ a {
     font-family: monospace;
     margin-top: 15px;
     color: var(--accent);
+}
+
+@media (max-width: 800px) {
+
+    #ImgCon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin: 10%;
+    }
+
+    .beanbag {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    background: #392613;
+    font-size: 10px;
+    }
+
+    .beanbag img {
+        transform: scale(0.8);
+        padding: 10px;
+    }
 }
 
 #subscribe p {

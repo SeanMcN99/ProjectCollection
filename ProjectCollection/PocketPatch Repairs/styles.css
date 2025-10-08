@@ -23,6 +23,22 @@ html  {
     padding: 10px 30px;
 }
 
+@media screen and (max-width: 800px) {
+    #navbar {
+    background-color: navy;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    display: flex;
+    font-family: monospace, Trebuchet MS, sans-serif;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 30px;
+    }
+}
+
 #navbar a {
     text-decoration: none;
     color: white;
@@ -33,6 +49,13 @@ html  {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 30px;
     font-weight: 500;
+}
+
+@media (max-width: 800px) {
+    #logo {
+        font-size: 16px;
+        margin-left: -20px;
+    }
 }
 
 #nav-links {
