@@ -1,0 +1,103 @@
+:root {
+    --primary: #065F46;
+    --secondary: #F59E0B;
+    --accent: #EF4444;
+    --background: #F3F4F6;
+    --text: #111827;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: var(--text);
+}
+
+#banner {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 50px;
+    color: white;
+    line-height: 1.6;
+    font-size: 1.25rem;
+    margin-bottom: 80px;
+}
+
+#banner p {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+#about {
+    text-align: center;
+    margin: 0 10% 0 10%
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#services {
+    text-align: center;
+    margin-top: 110px;
+}
+
+#grid {
+    margin: 40px 0 50px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
+}
+
+.card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 35px;
+    color: var(--secondary);
+    box-shadow: 0 10px 16px dimgrey;
+}
+
+.card h2 {
+    margin-bottom: 30px;
+}
+
+#button {
+    text-decoration: none;
+    background-color: var(--accent);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    margin-top: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 50px
+}
+
+footer p {
+    color: white;
+}

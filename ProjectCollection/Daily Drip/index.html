@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Daily Drip</title>
+    
+</head>
+<body>
+    
+    <nav id="navbar">
+
+        <div id="logo">DRIP</div>
+        <div id="nav-items">
+            <a href="#beans">Beans</a>
+            <a href="#about">About</a>
+            <a href="#subscribe">Subscribe</a>
+            <a href="" id="navbtn">Sign Up / Log In</a>
+        </div>
+    </nav>
+
+        <section id="hero">
+
+            <h1>Welcome to Daily Drip</h1>
+            <p>choose your roast, set your schedule, and sip fresh every morning.</p>
+
+        </section>
+
+        <section id="about">
+
+            <p>
+                Daily Drip is built on a simple idea — that great coffee deserves time and craftsmanship. Every roast is handmade in small batches, using responsibly sourced beans from trusted growers. The result? A cup that’s smooth, balanced, and undeniably fresh — delivered straight to your doorstep.
+            </p>
+            <img src="./images/handbeans.jpg" class="aboutImg">
+
+        </section>
+
+        <section id="beans">
+
+            <h2 id="beanstext">
+                Browse our selection of beans and find your perfect roast.
+            </h2>
+        <div id="ImgCon">
+            <div class="beanbag one">
+                <img src="./images/beanbag.jpg">
+                <p class="bean-name">Colombian Roast</p>
+            </div>
+
+            <div class="beanbag two">
+                <img src="./images/beanbag.jpg">
+                <p class="bean-name">Ethiopian Light</p>
+            </div>
+
+            <div class="beanbag three">
+                <img src="./images/beanbag.jpg">
+                <p class="bean-name">Guatemalan Medium</p>
+            </div>
+
+            <div class="beanbag four">
+                <img src="./images/beanbag.jpg">
+                <p class="bean-name">Brazilian Dark</p>
+            </div>
+        </div>
+        </section>
+
+        <section id="subscribe">
+
+            <h3 id="sub-text">
+                YOU pick 
+                <br/>YOUR beans <br/>for 
+                <br/>YOUR taste
+            </h3>
+<p>Subscribe, pick your beans, enjoy.</p>
+
+            <div id="form-container">
+                <form id="subscription-form">
+
+                    <label>
+                        <input type="text" id="name" placeholder="name" required>
+                    </label>
+
+                    <label>
+                        <input required type="email" id="email" placeholder="email@gmail.com">
+                    </label>
+
+                    <label for="frequency">Delivery Frequency</label>
+                    <select id="frequency" name="frequency" required>
+                        <option value="">Select Frequency</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                    </select>
+
+                    <label for="bags">Number of Bags per Delivery:</label>
+                    <select id="bags" name="bags" required>
+                        <option value="">Select number of bags</option>
+                        <option value="1">1 Bag</option>
+                        <option value="2">2 Bags</option>
+                        <option value="3">3 Bags</option>
+                    </select>
+
+                    <button type="submit">Subscribe</button>
+                </form>
+
+            </div>
+
+        </section>
+
+        <section id="footer">
+            <p>&copy; DailyDrip Ltd</p>
+        </section>
+</body>
+</html>
